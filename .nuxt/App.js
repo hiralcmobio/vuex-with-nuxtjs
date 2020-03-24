@@ -11,8 +11,9 @@ import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import _6f6c098b from '../layouts/default.vue'
+import _15b44d1b from '../layouts/vue-crud.vue'
 
-const layouts = { "_default": _6f6c098b }
+const layouts = { "_default": _6f6c098b,"_vue-crud": _15b44d1b }
 
 export default {
   render (h, props) {
